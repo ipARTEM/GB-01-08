@@ -8,6 +8,12 @@ namespace GB_01_08
 
         static void Main(string[] args)
         {
+            NewSettings();
+            
+        }
+
+        static void NewSettings()
+        {
             ReadAllSettings();
 
             Console.WriteLine("Имя: ");
@@ -22,6 +28,7 @@ namespace GB_01_08
             ReadSetting("Возраст: ");
             ReadSetting("Род деятельности: ");
         }
+
 
         static void ReadAllSettings()
         {
